@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Generated CSS -->
+    <link href="./dist/output.css" rel="stylesheet">
+    <title>Gallerie filtrable</title>
+</head>
+<body>
+    <!-- Wrapper -->
+    <div id="wrapper" class="flex flex-wrap flex-col  items-center gap-10 my-10">
+        <div id="filter" class="">
+           <span class="mr-5 cursor-pointer active" data-filter="tous">Tous</span>
+           <span class="mr-5 cursor-pointer " data-filter="nature">Nature</span>
+           <span class="cursor-pointer" data-filter="ville">Ville</span>
+        </div>
+        <div id="container" class="flex flex-wrap gap-5 place-content-center">
+            <img src="images/alev-takil-zcqhTHgJvnc-unsplash.jpg" alt="ville_1" class="w-96 rounded-lg object-cover ville animate-fade-in
+            " >
+            <img src="images/v2osk-1Z2niiBPg5A-unsplash.jpg" alt="nature_1" class="w-96 rounded-lg object-cover nature animate-fade-in" >
+            <img src="images/venti-views-tQGi3b7d6rU-unsplash.jpg" alt="ville_2" class="w-96 rounded-lg object-cover ville animate-fade-in">
+            <img src="images/miltiadis-fragkidis-U88iyzoZdlY-unsplash.jpg" alt="ville_3" class="w-96 rounded-lg object-cover ville animate-fade-in">
+            <img src="images/johannes-andersson-UCd78vfC8vU-unsplash.jpg" alt="nature_2" class="w-96 rounded-lg object-cover nature animate-fade-in">
+            <img src="images/jeremy-bishop-EwKXn5CapA4-unsplash.jpg" alt="nature_3" class="w-96 rounded-lg object-cover nature animate-fade-in">
+            <img src="images/anthony-reungere-s6xt1mwF_iU-unsplash.jpg" alt="ville_4" class="w-96 rounded-lg object-cover ville animate-fade-in">
+            <img src="images/urban-vintage-78A265wPiO4-unsplash.jpg" alt="nature_4" class="w-96 rounded-lg object-cover nature animate-fade-in">
+        </div>
+        
+    </div><!-- End Wrapper -->
+    <footer>
+        <p class="text-center">Built by Charles Faye (Bebouzo) - &copy;<span id="date"></span></p>
+    </footer>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
