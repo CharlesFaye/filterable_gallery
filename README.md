@@ -47,4 +47,4 @@ Customization Ideas
 . Combine multiple filters
 
 Author
-Created by https://github.com/CharlesFaye
+Created by Charles Faye.
